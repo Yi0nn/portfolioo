@@ -1,0 +1,27 @@
+.skills {
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+.skills-track {
+  display: flex;
+  gap: 40px;
+  width: max-content;
+  animation: scroll 15s linear infinite;
+}
+
+.skill-item {
+  padding: 20px 40px;
+  background-color: #eee;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

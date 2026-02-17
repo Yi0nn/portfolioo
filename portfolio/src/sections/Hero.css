@@ -1,0 +1,34 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+
+.hero-left {
+  max-width: 50%;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-description {
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.hero-right {
+  text-align: center;
+}
+
+.hero-image {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.hero-tag {
+  margin-top: 10px;
+  font-weight: 500;
+}

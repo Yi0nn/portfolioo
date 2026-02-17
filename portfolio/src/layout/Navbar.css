@@ -1,0 +1,9 @@
+.navbar {
+  padding: 20px;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
